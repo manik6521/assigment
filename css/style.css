@@ -8,6 +8,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/* gobel */
 .over-lay{
     width: 1600px;
     margin: auto;
@@ -44,7 +45,7 @@ body{
 .lighting {
     color: #0389f6;
 }
-p.description {
+.description {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
@@ -59,6 +60,7 @@ p.description {
     font-weight: 700;
     border: 1px solid #b12ae9;
 }
+/* mission */
 #mission{
     text-align: center;
     border: none;
@@ -92,14 +94,34 @@ p.description {
 #goals {
     background: aquamarine;
 }
-.bn {
-    font-size: 39px;
-    margin-bottom: 20px;
-}
-
+/* development */
 #bg-ground{
     background-image: url(../image/shape-1.png);
     background-repeat: no-repeat;
     background-position: left center;
     background-size:contain ;
+}
+
+.bn {
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+footer {
+    background: black;
+    padding: 50px;
+    text-align: center;
+}
+
+h2#footer-title {
+    color: #ffad5a;
+    font-family: system-ui;
+    font-style: italic;
+}
+
+#fo-description {
+    color: #ddd;
+    line-height: 2;
 }
