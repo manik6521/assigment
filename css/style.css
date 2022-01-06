@@ -8,15 +8,15 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
-
-.half {
-    width: 50%;
-}
 .over-lay{
     width: 1600px;
     margin: auto;
+    padding: 50px 0;
 }
+.half {
+    width: 50%;
+}
+
 .full-wth {
     display: flex;
 
@@ -50,7 +50,7 @@ p.description {
     margin-bottom: 24px;
 }
 
-button.glo-bton {
+.glo-bton {
     padding: 14px 30px;
     background: #b12ae9;
     color: #fff;
@@ -79,16 +79,27 @@ button.glo-bton {
 .card img {
     width: 102px;
 }
-h3.card-title {
+.card-title {
     font-size: 23px;
     line-height: 2.5;
 }
 #mission-i{
     background: aliceblue;
 }
-div#vission {
+#vission {
     background: #fbe1bd;
 }
-div#goals {
+#goals {
     background: aquamarine;
+}
+.bn {
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+
+#bg-ground{
+    background-image: url(../image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size:contain ;
 }
